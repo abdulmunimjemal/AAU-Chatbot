@@ -1,0 +1,171 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Hi there"
+            ],
+            "responses": [
+                "Hello! How can I assist you?",
+                "Hi! How can I help you today?",
+                "Hey! What can I do for you?",
+                "Hi there! How can I assist you?"
+            ]
+        },
+        {
+            "tag": "greeting_amharic",
+            "patterns": [
+                "ሰላም",
+                "ደስ እንዴት ነሽ?",
+                "ጤና ይስጥልህ",
+                "እንዴት ነሽ?"
+            ],
+            "responses": [
+                "ሰላም! እስር የለሽ ነው ምን እያሉ በሉ?",
+                "ደስ እንዴት ነሽ? እሱ ምን እያሉ በሉ?",
+                "ጤና ይስጥልህ! ምን ያህል ስለሆነ ታገኛለሽ?",
+                "እንዴት ነሽ? እሱ ምን እያሉ በሉ?"
+            ]
+        },
+        {
+            "tag": "greeting_oromoo",
+            "patterns": [
+                "Akkam",
+                "Galatoomi",
+                "Kun akkaataa?"
+            ],
+            "responses": [
+                "Akkam! Kun akkaataa?",
+                "Galatoomi! Kun akkaataa?",
+                "Kun akkaataa?"
+            ]
+        },
+        {
+            "tag": "greeting_extended",
+            "patterns": [
+                "Howdy",
+                "Greetings",
+                "Good day",
+                "Hello there"
+            ],
+            "responses": [
+                "Howdy! How can I assist you?",
+                "Greetings! How can I help you today?",
+                "Good day! What can I do for you?",
+                "Hello there! How can I assist you?"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey"
+            ],
+            "responses": [
+                "Hello! Welcome to Addis Ababa University's chatbot. How can I assist you today?",
+                "Hi there! How may I help you with your AAU-related questions?",
+                "Hello! Feel free to ask anything about AAU. How can I assist you?"
+            ]
+        },
+        {
+            "tag": "university_info",
+            "patterns": [
+                "Tell me about Addis Ababa University",
+                "What is AAU known for?",
+                "Give me an overview of AAU"
+            ],
+            "responses": [
+                "Addis Ababa University, also known as AAU, is Ethiopia's premier educational institution, recognized for its academic excellence.",
+                "Established in [Year], AAU has a rich history of providing quality education and fostering research in various fields."
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "How can I apply for admission?",
+                "Tell me about the admission process",
+                "What are the admission requirements?"
+            ],
+            "responses": [
+                "To apply for admission to Addis Ababa University, please visit our official website and follow the detailed application instructions provided.",
+                "The admission process at AAU is highly competitive. Ensure that you meet the admission requirements and submit your application by the specified deadline."
+            ]
+        },
+        {
+            "tag": "academic_programs",
+            "patterns": [
+                "What academic programs does AAU offer?",
+                "Tell me about the courses at AAU",
+                "Can you provide information about the faculties?"
+            ],
+            "responses": [
+                "Addis Ababa University offers a wide range of academic programs, including undergraduate, graduate, and doctoral degrees, across various faculties.",
+                "Our faculties, such as Arts, Sciences, Business, Engineering, and more, provide diverse and high-quality educational opportunities."
+            ]
+        },
+        {
+            "tag": "tuition_fees",
+            "patterns": [
+                "How much is the tuition fee?",
+                "Tell me about the cost of education",
+                "Are there any scholarships available?"
+            ],
+            "responses": [
+                "Tuition fees at AAU vary depending on the specific program and faculty. You can find detailed fee information on our official website or contact our admissions office.",
+                "We offer scholarships to eligible students to support their education. Check our scholarship programs for criteria and application details."
+            ]
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+                "What's campus life like at AAU?",
+                "Tell me about student activities",
+                "Is there student housing available?"
+            ],
+            "responses": [
+                "Campus life at Addis Ababa University is vibrant and diverse, with numerous student clubs, organizations, and events.",
+                "Our university provides student housing options, and there are plenty of opportunities to get involved in extracurricular activities."
+            ]
+        },
+        {
+            "tag": "contact_info",
+            "patterns": [
+                "How can I contact AAU?",
+                "Give me the university's contact details",
+                "I need to speak with someone from AAU"
+            ],
+            "responses": [
+                "You can reach out to Addis Ababa University through our main campus at [Campus Address]. For specific inquiries, contact our offices at [Contact Information].",
+                "Feel free to call our university hotline at [Phone Number] or send an email to [Email Address] for assistance."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Appreciate your help"
+            ],
+            "responses": [
+                "You're welcome! If you have more questions in the future, don't hesitate to ask.",
+                "You're welcome. If you need further assistance, feel free to return anytime."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Farewell",
+                "See you later"
+            ],
+            "responses": [
+                "Goodbye! Have a wonderful day.",
+                "Farewell! If you ever need assistance again, don't hesitate to reach out."
+            ]
+        }
+    ]
+}
