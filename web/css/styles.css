@@ -1,6 +1,6 @@
 :root {
     --color-primary: #16202c;
-    --color-secondary: #586e88;
+    --color-secondary: #586e883b;
     --color-accent: #25976f;
     --color-body: #fcfcfc;
     --border-radius: 1.5rem;
@@ -22,16 +22,16 @@ body {
 
 /* SCROLL BAR STYLING */
 ::-webkit-scrollbar {
-    width: 3px; /* Width of the entire scrollbar */
+    width: 0; /* Width of the entire scrollbar */
 }
 /* Scrollbar Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--color-accent); /* Color of the scrollbar handle */
+    background: transparent; /* Color of the scrollbar handle */
     border-radius: 6px; /* Rounded corners of the handle */
 }
 /* When you hover over the scrollbar */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the handle on hover */
+    background:  var(--color-accent); /* Color of the handle on hover */
 }
 
 /* Scrollbar corne and track in normal state */
@@ -52,10 +52,10 @@ h2 {
 .chatbot-container {
     border-radius: var(--border-radius);
     min-height: 38rem;
-    max-height: 100vh;
+    height: 100%;
     padding: 1.6rem;
-    margin: 2rem auto;
-    width: 90vw;
+    margin: 1px auto;
+    width: 90%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -64,12 +64,6 @@ h2 {
 
 .chatbot-container--primary {
     background: var(--color-primary);
-}
-
-@media screen and (min-width: 768px) {
-    .chatbot-container {
-        width: 70vw;
-    }
 }
     
 
@@ -165,12 +159,14 @@ h2 {
     transform: scale(1.1);
     }
 
-/* Chatbot Messages */
+/* Chatbot Messages Container */
 
 .chatbot-container__messages {
-    background-color: var(--color-secondary);
     border-radius: var(--border-radius);
     flex-grow: 1;
+    max-height: 75vh;
+    padding: 1rem;
+    overflow-y: scroll;
     width: 100%;
 }
 
@@ -180,16 +176,14 @@ h2 {
     --border-radius: 1.5rem;
     color: var(--color-body);
     font-size: 1.6rem;
-    margin: 0.2rem 1rem 0.5rem;
-    max-width: 300px;
+    margin: 0.75rem auto;
     min-height: 0.5rem;
     padding-left: 1rem;
     padding: 0.2rem;
-    width: 100%;
 }
 
 .message-box--primary {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
 }
 
 .message-box--accent {
@@ -198,8 +192,19 @@ h2 {
 
 .message-box--left {
     border-radius: 0  var(--border-radius) var(--border-radius);
+    place-self: start;
+}
+
+.message-box--left .message-box__content {
+    padding-left: 10px;
 }
 
 .message-box--right {
     border-radius: var(--border-radius) 0 var(--border-radius) var(--border-radius);
+    place-self: end;
+    padding-left: 1.5rem;
+}
+
+.message-box--right .message-box__content {
+    padding-right: 10px;
 }
