@@ -20,6 +20,26 @@ body {
     line-height: 1.5;
 }
 
+/* SCROLL BAR STYLING */
+::-webkit-scrollbar {
+    width: 3px; /* Width of the entire scrollbar */
+}
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-accent); /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners of the handle */
+}
+/* When you hover over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle on hover */
+}
+
+/* Scrollbar corne and track in normal state */
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track {
+    background: transparent; /* Color of the scrollbar corner */
+}
+
 /* HEADINGS */
 h1 {
     font-size: 1.5rem;
@@ -145,38 +165,41 @@ h2 {
     transform: scale(1.1);
     }
 
-
-/* SCROLL BAR STYLING */
-/* Scrollbar Track */
-textarea::-webkit-scrollbar {
-    width: 3px; /* Width of the entire scrollbar */
-}
-/* Scrollbar Handle */
-textarea::-webkit-scrollbar-thumb {
-    background: var(--color-accent); /* Color of the scrollbar handle */
-    border-radius: 6px; /* Rounded corners of the handle */
-}
-/* When you hover over the scrollbar */
-textarea::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the handle on hover */
-}
-
-/* Scrollbar Track when it's empty and not clickable */
-textarea::-webkit-scrollbar-track {
-    background: transparent; /* Track color */
-}
-
-/* Scrollbar corner */
-textarea::-webkit-scrollbar-corner {
-    background: transparent; /* Color of the scrollbar corner */
-}
-
-
 /* Chatbot Messages */
 
 .chatbot-container__messages {
-    width: 100%;
     background-color: var(--color-secondary);
-    flex-grow: 1;
     border-radius: var(--border-radius);
+    flex-grow: 1;
+    width: 100%;
+}
+
+
+/* Message Box */
+.message-box {
+    --border-radius: 1.5rem;
+    color: var(--color-body);
+    font-size: 1.6rem;
+    margin: 0.2rem 1rem 0.5rem;
+    max-width: 300px;
+    min-height: 0.5rem;
+    padding-left: 1rem;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+.message-box--primary {
+    background-color: var(--color-primary);
+}
+
+.message-box--accent {
+    background-color: var(--color-accent);
+}
+
+.message-box--left {
+    border-radius: 0  var(--border-radius) var(--border-radius);
+}
+
+.message-box--right {
+    border-radius: var(--border-radius) 0 var(--border-radius) var(--border-radius);
 }
