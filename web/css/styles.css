@@ -20,6 +20,7 @@ body {
     line-height: 1.5;
 }
 
+/* HEADINGS */
 h1 {
     font-size: 1.5rem;
 }
@@ -27,6 +28,7 @@ h2 {
     font-size: 1.1rem;
 }
 
+/* Container for the ChatBot Assistant */
 .chatbot-container {
     border-radius: var(--border-radius);
     min-height: 38rem;
@@ -39,15 +41,16 @@ h2 {
     overflow-x: hidden;
 }
 
+.chatbot-container--primary {
+    background: var(--color-primary);
+}
+
 @media screen and (min-width: 768px) {
     .chatbot-container {
         width: 70vw;
     }
 }
     
-.chatbot-container--primary {
-    background: var(--color-primary);
-}
 
 /* Chatbot Header */
 .chatbot-container__header {
@@ -99,7 +102,9 @@ h2 {
     color: var(--color-body);
     outline: 0;
     font-size: 1.6rem;
-    padding: 1.2rem 1.6rem;
+    padding: 1.2rem 1.6rem;;
+    max-height: 5rem;
+    resize: none;
 }
 
 ::placeholder {
@@ -131,12 +136,38 @@ h2 {
     width: 32px;
     fill: var(--color-accent); 
     cursor: pointer; 
-    translate: scale .15s ease-in-out;  
+    transition: transform .15s ease-in-out;  
+    align-self: flex-end;
 }
 
 .send-btn__img:hover {
     transform: scale(1.1);
     }
+
+
+/* SCROLL BAR STYLING */
+/* Scrollbar Track */
+textarea::-webkit-scrollbar {
+    width: 3px; /* Width of the entire scrollbar */
+}
+/* Scrollbar Handle */
+textarea::-webkit-scrollbar-thumb {
+    background: var(--color-accent); /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners of the handle */
+}
+/* When you hover over the scrollbar */
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle on hover */
+}
+/* Scrollbar Track when it's empty and not clickable */
+textarea::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+}
+/* Scrollbar corner */
+textarea::-webkit-scrollbar-corner {
+    background: transparent; /* Color of the scrollbar corner */
+}
+
 
 /* Chatbot Messages */
 
