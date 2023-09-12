@@ -1,0 +1,478 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening"
+            
+					],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help you?",
+                "Hey! What can I do for you?",
+                "Good day! How can I assist you?",
+                "Greetings! How can I be of service?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See you later",
+                "Farewell",
+                "Take care"
+            
+					],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Bye! Take care!",
+                "See you later! Don't hesitate to return.",
+                "Farewell! Feel free to reach out anytime.",
+                "Take care! Goodbye for now."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it",
+                "Thanks a lot",
+                "Thank you so much"
+            
+					],
+            "responses": [
+                "You're welcome! If you have more questions, feel free to ask.",
+                "You're welcome! Don't hesitate to reach out if you need assistance.",
+                "No problem! Let me know if there's anything else I can help with.",
+                "Anytime! If you have further inquiries, just ask.",
+                "Glad I could assist! If you need more help, I'm here."
+            ]
+        },
+        {
+            "tag": "introduction",
+            "patterns": [
+                "Hello, I am",
+                "my name is",
+                "Allow me to introduce myself, I'm",
+                "I go by the name",
+                "My name is"
+            
+					],
+            "responses": [
+                "Nice to meet you, {n}! How can I assist you today?",
+                "Hello, {n}! What can I do for you?",
+                "Greetings, {n}! How may I help you?",
+                "Pleasure to meet you, {n} How can I be of service?",
+                "Hi, {n}! What brings you here today?"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": ["Tell me about yourself",
+						"Who are you?",
+						"Introduce yourself",
+						"About you",
+						"What is your purpose?",
+						"What can you do?",
+						"Who created you?"
+					],
+            "responses": ["I am AAiT Assistant Bot, a chatbot designed to assist with information related to Addis Ababa Institute of Technology. My goal is to provide helpful information and answer your questions about the university.",
+						"I was developed by Abdulmunim Jundurahman as part of a side open-source project for Addis Ababa Institute of Technology.",
+						"I'm here to assist you with information about Addis Ababa Institute of Technology. If you have any questions or need assistance, feel free to ask."]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                            ""
+					],
+            "responses": ["I'm sorry, I couldn't understand your question. I am currently under heavy development and may not have answers to all questions. It will be improved over time as more data becomes available.",
+						"The AAiT Assistant Bot is continuously improving, but it may not have answers to every question. For further information, you can visit the official Addis Ababa Institute of Technology website at https://www.aaiT.edu.et/ or contact them at +251-11-232412."]
+        },
+        {
+          "tag": "history",
+          "patterns": ["Tell me about AAiT's history",
+						"What is the history of AAiT?",
+						"When was AAiT established?",
+						"Origin of AAiT"
+					],
+          "responses": ["Addis Ababa Institute of Technology (AAiT) is one of the leading technology institutions in Ethiopia. It was established in 1956 with the help of the United States as part of a bilateral agreement. AAiT has a rich history of providing high-quality education and contributing to technological advancements in the country."]
+        },
+        {
+          "tag": "history1",
+          "patterns": ["Who founded AAiT?",
+						"Origin of AAiT's establishment",
+						"Who played a role in founding AAiT?"
+					],
+          "responses": ["AAiT was founded with the support of the U.S. government under the Point Four Program. It was initially established as part of the Haile Selassie I University and has since evolved into an independent institution known for its excellence in technology and engineering education."]
+        },
+        {
+          "tag": "history2",
+          "patterns": ["How has AAiT evolved over the years?",
+						"AAiT's growth and development",
+						"Historical milestones of AAiT"
+					],
+          "responses": ["Over the years, AAiT has seen significant growth and development. It has expanded its academic programs, research initiatives, and collaborations with international institutions. AAiT has consistently aimed to meet the ever-changing demands of technology and education."]
+        },
+        {
+            "tag": "history3",
+            "patterns": [
+              "Tell me about the history of Addis Ababa Institute of Technology.",
+              "What is the historical background of Addis Ababa Institute of Technology?",
+              "Can you provide some information about the history of AAiT?",
+              "When was AAiT established?",
+              "How did AAiT come into existence?",
+              "Give me some insights into AAiT's past."
+            
+					],
+            "responses": [
+              "Addis Ababa Institute of Technology (AAiT) is a renowned institution with a rich history. It was founded in 1963 G.C.  as a part of Addis Ababa University (AAU).",
+              "The history of AAiT dates back to its establishment in 1963 G.C. . It was founded to cater to the growing demand for technology education in Ethiopia.",
+              "AAiT has a long and illustrious history. It was established in 1963 G.C.  and has since played a significant role in advancing technology education in the region.",
+              "The journey of Addis Ababa Institute of Technology began in 1963 G.C.  when it was founded as a part of AAU. It has a remarkable history of contributing to technological advancements in Ethiopia.",
+              "Established in 1963 G.C, AAiT has a storied history of excellence in technology education. It has been a cornerstone of technological progress in Ethiopia."
+            ]
+        },
+        {
+            "tag": "history4",
+            "patterns": [
+              "What are some notable achievements in AAiT's history?",
+              "Historical achievements of AAiT",
+              "Notable milestones at AAiT"
+            
+					],
+            "responses": [
+              "AAiT has achieved several milestones, including the establishment of state-of-the-art laboratories, accreditation of its programs, and recognition as a center of excellence in various fields. It has also played a key role in advancing research and innovation in Ethiopia.",
+              "Throughout its history, AAiT has celebrated numerous achievements. These include pioneering research projects, successful collaborations with international institutions, and producing graduates who have made significant contributions to society.",
+              "Some of the notable achievements in AAiT's history include the development of groundbreaking technologies, contributions to Ethiopia's industrial growth, and the continuous pursuit of excellence in education and research."
+            ]
+          },
+          {
+            "tag": "undergraduate_programs",
+            "patterns": [
+              "Tell me about undergraduate programs at AAiT.",
+              "What undergraduate courses are available at AAiT?",
+              "List AAiT's undergraduate programs."
+            ],
+            "responses": [
+              "AAiT offers a variety of undergraduate programs to choose from. Here are some of the undergraduate programs available:",
+              "1. Bachelor of Science Electrical and Computer Engineering - 5 years - Undergraduate - Regular, Extension",
+              "2. Bachelor of Science in Biomedical Engineering - 5 years - Undergraduate - Extension, Regular",
+              "3. Bachelor of Science in Cadastral Surveying and Geomatics - 4 years - Undergraduate - Regular",
+              "4. Bachelor of Science in Chemical Engineering - 5 years - Undergraduate - Extension, Regular",
+              "5. Bachelor of Science in Civil Engineering - 5 years - Undergraduate - Extension, Regular",
+              "6. Bachelor of Science in Electrical and Computer Engineering (Power) - 4 years - Undergraduate - Regular, Extension",
+              "7. Bachelor of Science in Electrical and Computer Engineering (Communication) - 2 years - Undergraduate - Extension, Regular",
+              "8. Bachelor of Science in Electrical and Computer Engineering (Computer) - 2 years - Undergraduate - Regular, Extension",
+              "9. Bachelor of Science in Electrical and Computer Engineering (Electronics) - 2 years - Undergraduate - Regular",
+              "10. ..., check https://portal.aait.edu.et/Web/ProgramList for more",
+              "These programs cover a wide range of fields, including engineering, technology, and more. For detailed information about each program, including admission requirements and application procedures, please visit the AAiT website or contact the admissions office."
+            ]
+          },
+          {
+            "tag": "postgraduate_programs",
+            "patterns": [
+              "Tell me about postgraduate programs at AAiT.",
+              "What postgraduate courses are available at AAiT?",
+              "List AAiT's postgraduate programs."
+            ],
+            "responses": [
+              "AAiT offers a wide range of postgraduate programs for those looking to further their education. Here are some of the postgraduate programs available:",
+              "1. Doctor of Philosophy (PhD) in Civil Engineering (Road and Transport Engineering) - 4 years - Graduate - Regular",
+              "2. Doctor of Philosophy in Biomedical Engineering (Bio-Rehabilitation) - 4 years - Graduate - Regular",
+              "3. Doctor of Philosophy in Biomedical Engineering (Bio-Instrumentation and Imaging) - 4 years - Graduate - Regular",
+              "4. Doctor of Philosophy in Chemical Engineering (Environmental Engineering) - 4 years - Graduate - Regular",
+              "5. Doctor of Philosophy in Chemical Engineering (Food Engineering) - 4 years - Graduate - Regular",
+              "6. Doctor of Philosophy in Chemical Engineering (Process Engineering) - 4 years - Graduate - Regular",
+              "7. Doctor of Philosophy in Civil Engineering (Geotechnical Engineering) - 4 years - Graduate - Regular",
+              "8. Doctor of Philosophy in Civil Engineering (Hydraulic Engineering) - 4 years - Graduate - Regular",
+              "9. Doctor of Philosophy in Civil Engineering (Construction Engineering and Management) - 6 years - Graduate - Regular",
+              "10. ..., check https://portal.aait.edu.et/Web/ProgramList for more",
+              "These postgraduate programs cover various fields, including engineering, technology, and more. If you need more information about a specific program, including admission requirements and application procedures, I recommend visiting the AAiT website or contacting the admissions office for detailed guidance."
+            ]
+          },
+          {
+            "tag": "masters_programs",
+            "patterns": [
+              "Tell me about master's degree programs at AAiT.",
+              "What master's courses are available at AAiT?",
+              "List AAiT's master's programs."
+            ],
+            "responses": [
+              "AAiT offers a diverse range of master's degree programs to cater to different academic interests. Here are some of the master's programs available:",
+              "1. Master of Engineering in Biomedical Engineering (Bio-Instrumentation and Imaging) - 2 years - Graduate - Regular",
+              "2. Master of Engineering in Biomedical Engineering (Biomechanics and Rehabilitation) - 2 years - Graduate - Regular",
+              "3. Master of Engineering in Mineral Engineering - 2 years - Graduate - Regular",
+              "4. Master of Engineering in Petroleum Engineering - 2 years - Graduate - Regular",
+              "5. Master of Science in Mechanical Engineering (Mechanical Design) - 2 years - Graduate - Regular, Extension",
+              "6. Master of Science Civil Engineering (Structural Engineering) - 2 years - Graduate - Extension, Regular",
+              "7. Master of Science Degree in Road Transport Safety - 2 years - Graduate - Extension, Regular",
+              "8. Master of Science in Artificial Intelligence - 2 years - Graduate - Regular, Extension",
+              "9. Master of Science in Biochemical Engineering - 2 years - Graduate - Regular",
+              "10. Master of Science in Biomedical Engineering (Bio-Instrumentation and Imaging) - 2 years - Graduate - Regular",
+              "11. ..., check https://portal.aait.edu.et/Web/ProgramList for more",
+              "These master's programs cover a wide spectrum of disciplines, including engineering, technology, and more. To get more detailed information about a specific program, such as admission requirements and application procedures, I recommend visiting the AAiT website or reaching out to the admissions office for comprehensive guidance."
+            ]
+          },
+          {
+            "tag": "extension_programs",
+            "patterns": [
+              "Tell me about AAiT's extension programs.",
+              "What extension courses are available at AAiT?",
+              "List AAiT's extension programs."
+            ],
+            "responses": [
+              "AAiT offers a variety of extension programs to cater to individuals seeking further education and professional development. Here are some of the extension programs available:",
+              "1. Bachelor of Science in Electrical and Computer Engineering (Communication) - 2 years - Undergraduate - Extension, Regular",
+              "2. Bachelor of Science in Electrical and Computer Engineering (Computer) - 2 years - Undergraduate - Regular, Extension",
+              "3. Master of Science in Mechanical Engineering (Mechanical Design) - 2 years - Graduate - Regular, Extension",
+              "4. Master of Science Civil Engineering (Structural Engineering) - 2 years - Graduate - Extension, Regular",
+              "5. Master of Science Degree in Road Transport Safety - 2 years - Graduate - Extension, Regular",
+              "6. Master of Science in Civil Engineering (Construction Technology and Management) - 2 years - Graduate - Extension, Regular",
+              "7. Master of Science in Civil Engineering (Geotechnical Engineering) - 2 years - Graduate - Extension, Regular",
+              "8. Master of Science in Civil Engineering (Hydraulic Engineering) - 2 years - Graduate - Extension, Regular",
+              "9. Master of Science in Civil Engineering (Road and Transport Engineering) - 2 years - Graduate - Regular, Extension",
+              "10. Master of Science in Civil Engineering (Water Supply and Environmental Engineering) - 2 years - Graduate - Regular, Extension",
+              "11. Master of Science in Chemical Engineering (Environmental Engineering) - 2 years - Graduate - Regular, Extension",
+              "12. Master of Science in Chemical Engineering (Leather Technology) - 2 years - Graduate - Regular",
+              "13. ..., check https://portal.aait.edu.et/Web/ProgramList for more",
+              "These extension programs are designed to provide opportunities for further education and skill development. If you need more detailed information about a specific extension program or have questions about admissions, please visit the AAiT website or contact the admissions office for assistance."
+            ]
+        },
+        {
+            "tag": "grading_system",
+            "patterns": [
+              "Tell me about AAU's grading system.",
+              "Explain the grading scale at AAU.",
+              "How does AAU's grading system work?"
+            ],
+            "responses": [
+              "The grading system at AAU is based on a fixed scale with corresponding letter grades. Here are the details:",
+              "A+ (90-100) - Excellent [UNDERGRADUATE], A+ (95-100) - Excellent [GRADUATE]",
+              "A (83-90) - Excellent [UNDERGRADUATE], A (85-90) - Excellent [GRADUATE]",
+              "A- (80-83) - Very Good [UNDERGRADUATE], A- (80-85) - Very Good [GRADUATE]",
+              "B+ (75-80) - Very Good",
+              "B (68-75) - Good",
+              "B- (65-68) - Good",
+              "C+ (60-65) - Satisfactory",
+              "C (50-60) - Satisfactory",
+              "C- (45-50) - Unsatisfactory",
+              "D (40-45) - Very Poor",
+              "Fx (30-40) - Fail",
+              "F (<30) - Fail"
+            ]
+          },
+          {
+            "tag": "graduation_requirements",
+            "patterns": [
+              "What is the minimum CGPA required for graduation?",
+              "Tell me about the CGPA requirement for graduation at AAU."
+            ],
+            "responses": [
+              "To graduate from AAU, students must achieve a minimum CGPA of 2.0.",
+              "A student must have a CGPA of at least 2.0 to be eligible for graduation."
+            ]
+          },
+          {
+            "tag": "academic_status",
+            "patterns": [
+              "What is academic probation at AAU?",
+              "Explain the academic dismissal policy at AAU.",
+              "Tell me about the academic standing at AAU."
+            ],
+            "responses": [
+              "Academic probation at AAU is a warning status for students whose CGPA falls below 2.0 or who have specific academic issues. Academic dismissal may follow if improvement is not shown.",
+              "Students can be placed on academic probation if their CGPA falls below 2.0 or if they face certain academic challenges. Academic dismissal may occur for students with multiple warnings."
+            ]
+          },
+          {
+            "tag": "reexamination",
+            "patterns": [
+              "How does re-examination work at AAU?",
+              "Tell me about the re-examination policy at AAU.",
+              "Can I retake a course at AAU?"
+            ],
+            "responses": [
+              "Students with specific grades or academic issues may be eligible for re-examination. It allows them to improve their grades and academic status.",
+              "Re-examination is available for students who meet certain criteria. It provides an opportunity to improve grades and academic standing."
+            ]
+          },
+          {
+            "tag": "withdrawal_readmission",
+            "patterns": [
+              "How does withdrawal work at AAU?",
+              "Can I withdraw from AAU?",
+              "Tell me about readmission procedures at AAU."
+            ],
+            "responses": [
+              "Students can formally withdraw from AAU within a specific timeframe. Readmission may be possible after withdrawal, but there are procedures to follow.",
+              "Withdrawal from AAU is allowed within a specified period. Readmission procedures must be followed if you wish to return."
+            ]
+          },
+          {
+            "tag": "undergraduate_graduation",
+            "patterns": [
+              "What are the graduation requirements for undergraduate students at AAU?",
+              "Explain the criteria for graduating with an undergraduate degree."
+            ],
+            "responses": [
+              "Undergraduate students at AAU must meet specific requirements to graduate, including a minimum CGPA, no 'F' grades, and successful completion of required courses.",
+              "To graduate with an undergraduate degree from AAU, students need to fulfill certain criteria, such as maintaining a minimum CGPA and completing all required courses."
+            ]
+          },
+          {
+            "tag": "admission_fees",
+            "patterns": [
+              "Tell me about AAU admission fees.",
+              "How much is the admission application fee at AAU?",
+              "What are the registration fees for AAU?"
+            ],
+            "responses": [
+              "Ethiopian students in regular undergraduate programs are not charged for admission application and regular registration. However, they are charged for tuition and other services.",
+              "Admission application and regular registration are free for Ethiopian students in regular undergraduate programs. Tuition and other fees apply."
+            ]
+          },
+          {
+            "tag": "tuition_fees_ethiopian_evening",
+            "patterns": [
+              "How much is the tuition fee for Ethiopian students in evening programs at AAU?",
+              "Tell me about evening program tuition fees for Ethiopians at AAU."
+            ],
+            "responses": [
+              "For Ethiopian students in evening programs at AAU, tuition fees vary based on program groups. Here are the current rates:",
+              "Social Sciences, Humanities, Natural Sciences: 214 ETB/ECTS (Tuition Fee), 200 ETB/ECTS (Thesis Research Fees)",
+              "Professional Disciplines: 323 ETB/ECTS (Tuition Fee), 278 ETB/ECTS (Thesis Research Fees)",
+              "Technology, Health Sciences and Informatics, Computer Sciences: 323 ETB/ECTS (Tuition Fee), 378 ETB/ECTS (Thesis Research Fees)"
+            ]
+          },
+          {
+            "tag": "tuition_fees_foreign_postgraduate",
+            "patterns": [
+              "What are the tuition fees for foreign postgraduate students at AAU?",
+              "Tell me about postgraduate tuition fees for foreign students at AAU."
+            ],
+            "responses": [
+              "Tuition fees for foreign postgraduate students at AAU vary by fee category and level of study. Here are the current rates:",
+              "Masters Studies: Refugees (80 ETB Registration Fee, 214 ETB/ECTS Tuition Fee), IGAD members and Eastern African Countries (20 USD Registration Fee, 50 USD/ECTS Tuition Fee), Others (40 USD Registration Fee, 80 USD/ECTS Tuition Fee)",
+              "PhD Studies: Refugees (80 ETB Registration Fee, 500 ETB/CrH Tuition Fee), IGAD members and Eastern African Countries (20 USD Registration Fee, 60 USD/CrH Tuition Fee), Others (40 USD Registration Fee, 100 USD/CrH Tuition Fee)"
+            ]
+          },
+          {
+            "tag": "tuition_fees_foreign_undergraduate",
+            "patterns": [
+              "How much are the tuition fees for foreign undergraduate students at AAU?",
+              "Tell me about undergraduate tuition fees for foreign students at AAU."
+            ],
+            "responses": [
+              "Tuition fees for foreign undergraduate students at AAU vary by fee category and field of study. Here are the current rates:",
+              "Registration Fee (All Countries): 100 USD",
+              "Social Sciences: IGAD members and Eastern African Countries (42 USD/ECTS), Other African Countries (48 USD/ECTS), Other Countries (60 USD/ECTS)",
+              "Science: IGAD members and Eastern African Countries (52 USD/ECTS), Other African Countries (60 USD/ECTS), Other Countries (74 USD/ECTS)",
+              "Engineering: IGAD members and Eastern African Countries (60 USD/ECTS), Other African Countries (70 USD/ECTS), Other Countries (86 USD/ECTS)",
+              "Medicine: IGAD members and Eastern African Countries (100 USD/ECTS), Other African Countries (120 USD/ECTS), Other Countries (150 USD/ECTS)"
+            ]
+          },
+          {
+            "tag": "other_fees",
+            "patterns": [
+              "Tell me about other fees at AAU.",
+              "What are the additional fees charged at AAU?",
+              "Explain miscellaneous fees at AAU."
+            ],
+            "responses": [
+              "AAU charges various other fees for services such as authentication, transcripts, identification cards, and more. Here are some examples:",
+              "Authentication (Degree or diploma): 100 birr per copy or 40 birr per copy for local or overseas orders, Identification card: 75 USD per copy or 25 birr per copy for local or overseas orders, Official Transcript: 40 birr for local orders, 60 birr for foreign orders, 100 birr for orders by delegation."
+            ]
+          },
+          {
+            "tag": "readmission_transfer_fees",
+            "patterns": [
+              "What are the fees for readmission at AAU?",
+              "Tell me about the cost of transferring within or to AAU.",
+              "Explain the charges for readmission and transfers at AAU."
+            ],
+            "responses": [
+              "AAU charges fees for readmission and transfers. Here are some examples:",
+              "Readmission: 50 birr for Ethiopians, Transfer within the university: 75 birr, Transfer to another university: 150 birr."
+            ]
+          },
+          {
+            "tag": "graduation_fees",
+            "patterns": [
+              "How much are the graduation fees at AAU?",
+              "Tell me about the fees for graduating from AAU.",
+              "Explain the cost of graduation at AAU."
+            ],
+            "responses": [
+              "AAU charges fees related to graduation and degree-related services. Here are some examples:",
+              "Original Degree: 80 birr, To whom it may concern letter: 40 birr, Replacement for lost Diploma/Degree (original): 250 birr, Replacement for lost ID: 100 birr."
+            ]
+          },
+          {
+            "tag": "undergraduate_admission_process",
+            "patterns": [
+              "How does AAU process undergraduate admissions?",
+              "Tell me about the undergraduate admission procedure at AAU."
+            ],
+            "responses": [
+              "AAU processes undergraduate admissions in several ways, including regular undergraduate, extension/distance undergraduate, in-service undergraduate, and advanced standing. The Ministry of Education plays a role in the process, and admission decisions are made based on various factors."
+            ]
+          },
+          {
+            "tag": "regular_undergraduate_admission",
+            "patterns": [
+              "What are the criteria for regular undergraduate admission at AAU?",
+              "Explain the admission requirements for regular undergraduate programs at AAU."
+            ],
+            "responses": [
+              "Regular undergraduate admission at AAU is based on the Ethiopian Higher Education Entrance Certificate Examination (EHEECE) results, student preferences, and departmental capacities. Some programs may have additional entrance exams determined by the respective Colleges and Departments."
+            ]
+          },
+          {
+            "tag": "extension_distance_undergraduate_admission",
+            "patterns": [
+              "What are the criteria for extension/distance undergraduate admission at AAU?",
+              "Explain the admission requirements for extension/distance undergraduate programs at AAU."
+            ],
+            "responses": [
+              "Extension/distance undergraduate admission at AAU has various entry categories, including high school graduates, TVET completers, COC exam takers, and bachelor's degree holders. Each category has specific criteria and documentation requirements."
+            ]
+          },
+          {
+            "tag": "in_service_undergraduate_admission",
+            "patterns": [
+              "How can one gain admission to an in-service undergraduate program at AAU?",
+              "Tell me about the admission process for in-service undergraduate programs at AAU."
+            ],
+            "responses": [
+              "In-service undergraduate admission at AAU is generally facilitated through the Ministry of Education (MoE). It is open to teachers employed by the MoE who are eligible to upgrade their qualifications."
+            ]
+          },
+          {
+            "tag": "advanced_standing_admission",
+            "patterns": [
+              "Can you explain advanced standing admissions at AAU?",
+              "What are the criteria for advanced standing admission at AAU?"
+            ],
+            "responses": [
+              "Advanced standing admissions may be allowed in some fields of study at AAU. To be eligible, a student must have a certificate, a passing result in the Certificate of Competence (COC) examination, and at least two years of service. There are specific requirements for advanced standing students."
+            ]
+          },
+          {
+            "tag": "admission_committees",
+            "patterns": [
+              "Who makes admission decisions at AAU?",
+              "Tell me about the committees responsible for admission at AAU."
+            ],
+            "responses": [
+              "Admissions and enrollment decisions at AAU are made by the University Registrar in consultation with academic units and the Admission and Enrollment Committee (AEC), which is a standing committee of the Senate. The decision of the AEC is final."
+            ]
+          }   
+    ]
+}
