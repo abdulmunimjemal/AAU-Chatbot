@@ -1,8 +1,8 @@
 :root {
-    --color-primary: rgb(22,32,44);
-    --color-secondary: rgb(88,110,136);
-    --color-accent: rgb(37,151,111);
-    --color-body: rgb(252,252,252);
+    --color-primary: #16202c;
+    --color-secondary: #586e88;
+    --color-accent: #25976f;
+    --color-body: #fcfcfc;
     --border-radius: 1.5rem;
 }
 
@@ -30,14 +30,26 @@ h2 {
 .chatbot-container {
     border-radius: var(--border-radius);
     min-height: 38rem;
+    max-height: 100vh;
     padding: 1.6rem;
-    width: 36rem;
+    margin: 2rem auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
+@media screen and (min-width: 768px) {
+    .chatbot-container {
+        width: 70vw;
+    }
+}
+    
 .chatbot-container--primary {
     background: var(--color-primary);
 }
 
+/* Chatbot Header */
 .chatbot-container__header {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -75,5 +87,61 @@ h2 {
     grid-area: assistant;
     text-align: right;
     font-weight: 300;
+}
 
+
+
+/* Input */
+
+.input {
+    border-radius: var(--border-radius);
+    border: 3px solid var(--color-secondary);
+    color: var(--color-body);
+    outline: 0;
+    font-size: 1.6rem;
+    padding: 1.2rem 1.6rem;
+}
+
+::placeholder {
+    color: #cdcbd7;
+}
+
+.input-group {
+    display: flex;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-secondary);
+    margin-top: 1rem;
+}
+
+.input-group .input {
+    border: 0;
+    flex-grow: 1;
+    padding: 1rem 1.6rem;
+    background-color: var(--color-primary);
+}
+
+/* SEND BUTTON */
+.send-btn {
+    background: inherit;
+    border: none;
+}
+
+.send-btn__img {
+    width: 32px;
+    fill: var(--color-accent); 
+    cursor: pointer; 
+    translate: scale .15s ease-in-out;  
+}
+
+.send-btn__img:hover {
+    transform: scale(1.1);
+    }
+
+/* Chatbot Messages */
+
+.chatbot-container__messages {
+    width: 100%;
+    background-color: var(--color-secondary);
+    flex-grow: 1;
+    border-radius: var(--border-radius);
 }
