@@ -115,6 +115,7 @@ h2 {
 
 .input-group .input {
     border: 0;
+    width: 0;
     flex-grow: 1;
     padding: 1rem 1.6rem;
     background-color: var(--color-primary);
