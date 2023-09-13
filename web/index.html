@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Bot - Addis Ababa University</title>
@@ -26,24 +26,15 @@
         <!-- START: CHAT MESSAGES BODY -->
         <div class="chatbot-container__messages">
             <div class="message-box message-box--primary message-box--left">
-                <p class="message-box__content">Hey, I am a bot, Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus voluptatibus inventore quam quas consectetur asperiores eveniet, fugiat iste dignissimos.</p>  
-            </div>
-            <div class="message-box message-box--accent message-box--right">
-                <p class="message-box__content">Lorem ipsum dolor sit amet.</p>  
-            </div>
-            <div class="message-box message-box--primary message-box--left">
-                <p class="message-box__content">Hey, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum ex culpa veritatis distinctio veniam vero dolorem explicabo. Ipsum error recusandae quaerat eum eos. Nihil beatae, fugit ducimus adipisci pariatur inventore.t</p>  
-            </div>
-            <div class="message-box message-box--accent message-box--right">
-                <p class="message-box__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta sequi dolore assumenda tempore, est unde?</p>  
+                <p class="message-box__content">Hello there, How shall I help you?</p>  
             </div>
         </div>
         <!-- END: CHAT MESSAGES BODY -->
 
         <!-- START: CHATBOT FORM -->
         <div class="input-group">
-            <textarea type="text" class="input" rows="1" placeholder="Type a message"></textarea>
-            <button class="send-btn">
+            <textarea type="text" class="input" rows="1" placeholder="Type a message" onkeydown="sendOnEnter(event)"></textarea>
+            <button class="send-btn" id="send">
                 <img class="send-btn__img" src="images/send-icon.svg" alt="send" />
             </button>
         </div>
