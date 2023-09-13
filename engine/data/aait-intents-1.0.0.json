@@ -66,11 +66,11 @@
             
 					],
             "responses": [
-                "Nice to meet you, {n}! How can I assist you today?",
-                "Hello, {n}! What can I do for you?",
-                "Greetings, {n}! How may I help you?",
-                "Pleasure to meet you, {n} How can I be of service?",
-                "Hi, {n}! What brings you here today?"
+                "Nice to meet you! How can I assist you today?",
+                "Hello! What can I do for you?",
+                "Greetings! How may I help you?",
+                "Pleasure to meet you, How can I be of service?",
+                "Hi, What brings you here today?"
             ]
         },
         {
