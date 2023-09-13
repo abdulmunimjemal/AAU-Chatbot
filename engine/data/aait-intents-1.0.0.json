@@ -228,21 +228,7 @@
               "List AAiT's extension programs."
             ],
             "responses": [
-              "AAiT offers a variety of extension programs to cater to individuals seeking further education and professional development. Here are some of the extension programs available:",
-              "1. Bachelor of Science in Electrical and Computer Engineering (Communication) - 2 years - Undergraduate - Extension, Regular",
-              "2. Bachelor of Science in Electrical and Computer Engineering (Computer) - 2 years - Undergraduate - Regular, Extension",
-              "3. Master of Science in Mechanical Engineering (Mechanical Design) - 2 years - Graduate - Regular, Extension",
-              "4. Master of Science Civil Engineering (Structural Engineering) - 2 years - Graduate - Extension, Regular",
-              "5. Master of Science Degree in Road Transport Safety - 2 years - Graduate - Extension, Regular",
-              "6. Master of Science in Civil Engineering (Construction Technology and Management) - 2 years - Graduate - Extension, Regular",
-              "7. Master of Science in Civil Engineering (Geotechnical Engineering) - 2 years - Graduate - Extension, Regular",
-              "8. Master of Science in Civil Engineering (Hydraulic Engineering) - 2 years - Graduate - Extension, Regular",
-              "9. Master of Science in Civil Engineering (Road and Transport Engineering) - 2 years - Graduate - Regular, Extension",
-              "10. Master of Science in Civil Engineering (Water Supply and Environmental Engineering) - 2 years - Graduate - Regular, Extension",
-              "11. Master of Science in Chemical Engineering (Environmental Engineering) - 2 years - Graduate - Regular, Extension",
-              "12. Master of Science in Chemical Engineering (Leather Technology) - 2 years - Graduate - Regular",
-              "13. ..., check https://portal.aait.edu.et/Web/ProgramList for more",
-              "These extension programs are designed to provide opportunities for further education and skill development. If you need more detailed information about a specific extension program or have questions about admissions, please visit the AAiT website or contact the admissions office for assistance."
+              "AAiT offers a variety of extension programs to cater to individuals seeking further education and professional development. Here are some of the extension programs available:\n1. Bachelor of Science in Electrical and Computer Engineering (Communication) - 2 years - Undergraduate - Extension, Regular \n2. Bachelor of Science in Electrical and Computer Engineering (Computer) - 2 years - Undergraduate - Regular, Extension \n3. Master of Science in Mechanical Engineering (Mechanical Design) - 2 years - Graduate - Regular, Extension \n4. Master of Science Civil Engineering (Structural Engineering) - 2 years - Graduate - Extension, Regular \n5. Master of Science Degree in Road Transport Safety - 2 years - Graduate - Extension, Regular \n6. Master of Science in Civil Engineering (Construction Technology and Management) - 2 years - Graduate - Extension, Regular \n7. Master of Science in Civil Engineering (Geotechnical Engineering) - 2 years - Graduate - Extension, Regular \n8. Master of Science in Civil Engineering (Hydraulic Engineering) - 2 years - Graduate - Extension, Regular \n9. Master of Science in Civil Engineering (Road and Transport Engineering) - 2 years - Graduate - Regular, Extension 10. Master of Science in Civil Engineering (Water Supply and Environmental Engineering) - 2 years - Graduate - Regular, Extension \n11. Master of Science in Chemical Engineering (Environmental Engineering) - 2 years - Graduate - Regular, Extension \n12. Master of Science in Chemical Engineering (Leather Technology) - 2 years - Graduate - Regular \n13. ..., check https://portal.aait.edu.et/Web/ProgramList for more and latest info. \nThese extension programs are designed to provide opportunities for further education and skill development. If you need more detailed information about a specific extension program or have questions about admissions, please visit the AAiT website or contact the admissions office for assistance."
             ]
         },
         {
@@ -253,19 +239,7 @@
               "How does AAU's grading system work?"
             ],
             "responses": [
-              "The grading system at AAU is based on a fixed scale with corresponding letter grades. Here are the details:",
-              "A+ (90-100) - Excellent [UNDERGRADUATE], A+ (95-100) - Excellent [GRADUATE]",
-              "A (83-90) - Excellent [UNDERGRADUATE], A (85-90) - Excellent [GRADUATE]",
-              "A- (80-83) - Very Good [UNDERGRADUATE], A- (80-85) - Very Good [GRADUATE]",
-              "B+ (75-80) - Very Good",
-              "B (68-75) - Good",
-              "B- (65-68) - Good",
-              "C+ (60-65) - Satisfactory",
-              "C (50-60) - Satisfactory",
-              "C- (45-50) - Unsatisfactory",
-              "D (40-45) - Very Poor",
-              "Fx (30-40) - Fail",
-              "F (<30) - Fail"
+              "The grading system at AAU is based on a fixed scale with corresponding letter grades. Here are the details:\nA+ (90-100) - Excellent [UNDERGRADUATE], A+ (95-100) - Excellent [GRADUATE]\nA (83-90) - Excellent [UNDERGRADUATE], A (85-90) - Excellent [GRADUATE]\nA- (80-83) - Very Good [UNDERGRADUATE], A- (80-85) - Very Good [GRADUATE]\nB+ (75-80) - Very Good\nB (68-75) - Good\nB- (65-68) - Good\nC+ (60-65) - Satisfactory\nC (50-60) - Satisfactory\nC- (45-50) - Unsatisfactory\nD (40-45) - Very Poor\nFx (30-40) - Fail\nF (<30) - Fail"
             ]
           },
           {
@@ -345,10 +319,7 @@
               "Tell me about evening program tuition fees for Ethiopians at AAU."
             ],
             "responses": [
-              "For Ethiopian students in evening programs at AAU, tuition fees vary based on program groups. Here are the current rates:",
-              "Social Sciences, Humanities, Natural Sciences: 214 ETB/ECTS (Tuition Fee), 200 ETB/ECTS (Thesis Research Fees)",
-              "Professional Disciplines: 323 ETB/ECTS (Tuition Fee), 278 ETB/ECTS (Thesis Research Fees)",
-              "Technology, Health Sciences and Informatics, Computer Sciences: 323 ETB/ECTS (Tuition Fee), 378 ETB/ECTS (Thesis Research Fees)"
+              "For Ethiopian students in evening programs at AAU, tuition fees vary based on program groups. Here are the current rates:\nSocial Sciences, Humanities, Natural Sciences: 214 ETB/ECTS (Tuition Fee), 200 ETB/ECTS (Thesis Research Fees)\nProfessional Disciplines: 323 ETB/ECTS (Tuition Fee), 278 ETB/ECTS (Thesis Research Fees)\nTechnology, Health Sciences and Informatics, Computer Sciences: 323 ETB/ECTS (Tuition Fee), 378 ETB/ECTS (Thesis Research Fees)"
             ]
           },
           {
@@ -363,6 +334,8 @@
               "PhD Studies: Refugees (80 ETB Registration Fee, 500 ETB/CrH Tuition Fee), IGAD members and Eastern African Countries (20 USD Registration Fee, 60 USD/CrH Tuition Fee), Others (40 USD Registration Fee, 100 USD/CrH Tuition Fee)"
             ]
           },
+
+          
           {
             "tag": "tuition_fees_foreign_undergraduate",
             "patterns": [
