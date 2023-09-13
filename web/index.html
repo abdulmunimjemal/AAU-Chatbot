@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Bot - Addis Ababa University</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="chatbot-container chatbot-container--primary">
-        <!-- START: CHATBOT HEADER -->
-        <div class="chatbot-container__header">
-            <img class="chatbot-container__profile" src="images/profile.svg" />
+        <!-- Chatbot Header -->
+        <header class="chatbot-container__header">
+            <img class="chatbot-container__profile" src="images/profile.svg" alt="Chatbot Profile">
             <div>
                 <h1 class="chatbot-container__heading">Ametahewt</h1>
                 <h2 class="chatbot-container__description">AAU ASSISTANT BOT</h2>
             </div>
             <p class="chatbot-container__assistant-id">Assistant ID: 2344 </p>
-        </div>
-        <!-- END: CHATBOT HEADER -->
+        </header>
 
-        <!-- START: CHAT MESSAGES BODY -->
+        <!-- Chat Messages Body -->
         <div class="chatbot-container__messages">
             <div class="message-box message-box--primary message-box--left">
-                <p class="message-box__content">Hello there, How shall I help you?</p>  
+                <p class="message-box__content">Hello there, How shall I help you?</p>
             </div>
         </div>
-        <!-- END: CHAT MESSAGES BODY -->
 
-        <!-- START: CHATBOT FORM -->
+        <!-- Chatbot Form -->
         <div class="input-group">
             <textarea type="text" class="input" rows="1" placeholder="Type a message" onkeydown="sendOnEnter(event)"></textarea>
             <button class="send-btn" id="send">
-                <img class="send-btn__img" src="images/send-icon.svg" alt="send" />
+                <img class="send-btn__img" src="images/send-icon.svg" alt="Send Message">
             </button>
         </div>
-        <!-- END: CHATBOT FORM -->
-
     </div>
     <script src="js/main.js"></script>
 </body>
