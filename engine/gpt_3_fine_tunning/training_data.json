@@ -1,0 +1,44 @@
+{
+  "dataset": [
+    {
+      "tag": "about",
+      "examples": ["Tell me about yourself", "Who are you?", "Introduce yourself", "About you", "What is your purpose?", "What can you do?", "Who created you?"],
+      "responses": ["I am AAiT Assistant Bot, a chatbot designed to assist with information related to Addis Ababa Institute of Technology. My goal is to provide helpful information and answer your questions about the university.", "I was developed by Abdulmunim Jundurahman as part of a side open-source project for Addis Ababa Institute of Technology.", "I'm here to assist you with information about Addis Ababa Institute of Technology. If you have any questions or need assistance, feel free to ask."]
+    },
+    {
+      "tag": "history",
+      "examples": ["Tell me about AAiT's history", "What is the history of AAiT?", "When was AAiT established?", "Origin of AAiT"],
+      "responses": ["Addis Ababa Institute of Technology (AAiT) is one of the leading technology institutions in Ethiopia. It was established in 1956 with the help of the United States as part of a bilateral agreement. AAiT has a rich history of providing high-quality education and contributing to technological advancements in the country."]
+    },
+    {
+      "tag": "history1",
+      "examples": ["Who founded AAiT?", "Origin of AAiT's establishment", "Who played a role in founding AAiT?"],
+      "responses": ["AAiT was founded with the support of the U.S. government under the Point Four Program. It was initially established as part of the Haile Selassie I University and has since evolved into an independent institution known for its excellence in technology and engineering education."]
+    },
+    {
+      "tag": "history2",
+      "examples": ["How has AAiT evolved over the years?", "AAiT's growth and development", "Historical milestones of AAiT"],
+      "responses": ["Over the years, AAiT has seen significant growth and development. It has expanded its academic programs, research initiatives, and collaborations with international institutions. It has also established itself as a leader in technology education in Ethiopia."]
+    },
+    {
+        "tag": "history3",
+        "examples": ["Tell me about the history of Addis Ababa Institute of Technology.", "What is the historical background of Addis Ababa Institute of Technology?", "Can you provide some information about the history of AAiT?", "When was AAiT established?", "How did AAiT come into existence?", "Give me some insights into AAiT's past."],
+        "responses": ["Addis Ababa Institute of Technology (AAiT) is a renowned institution with a rich history. It was founded in 1963 G.C. as a part of Addis Ababa University (AAU).", "The history of AAiT dates back to its establishment in 1963 G.C. It was founded to cater to the growing demand for technology education in Ethiopia.", "AAiT has a long and illustrious history. It was established in 1963 G.C. and has since played a significant role in advancing technology education in the region.", "The journey of Addis Ababa Institute of Technology began in 1963 G.C. when it was founded as a part of AAU. It has a remarkable history of contributing to technological advancements in Ethiopia.", "Established in 1963 G.C, AAiT has a storied history of excellence in technology education. It has been a cornerstone of technological progress in Ethiopia."]
+      },
+      {
+        "tag": "history4",
+        "examples": ["What are some notable achievements in AAiT's history?", "Historical achievements of AAiT", "Notable milestones at AAiT"],
+        "responses": ["AAiT has achieved several milestones, including the establishment of state-of-the-art laboratories, accreditation of its programs, and recognition as a center of excellence in various fields. It has also played a key role in advancing research and innovation in Ethiopia.", "Throughout its history, AAiT has celebrated numerous achievements. These include pioneering research projects, successful collaborations with international institutions, and producing graduates who have made significant contributions to society.", "Some of the notable achievements in AAiT's history include the development of groundbreaking technologies, contributions to Ethiopia's industrial growth, and the continuous pursuit of excellence in education and research."]
+      },
+      {
+        "tag": "undergraduate_programs",
+        "examples": ["Tell me about undergraduate programs at AAiT.", "What undergraduate courses are available at AAiT?", "List AAiT's undergraduate programs."],
+        "responses": ["AAiT offers a variety of undergraduate programs to choose from. Here are some of the undergraduate programs available:", "1. Bachelor of Science Electrical and Computer Engineering - 5 years - Undergraduate - Regular, Extension", "2. Bachelor of Science in Biomedical Engineering - 5 years - Undergraduate - Extension, Regular", "3. Bachelor of Science in Cadastral Surveying and Geomatics - 4 years - Undergraduate - Regular", "4. Bachelor of Science in Chemical Engineering - 5 years - Undergraduate - Extension, Regular", "5. Bachelor of Science in Civil Engineering - 5 years - Undergraduate - Extension, Regular", "6. Bachelor of Science in Electrical and Computer Engineering (Power) - 4 years - Undergraduate - Regular, Extension", "7. Bachelor of Science in Electrical and Computer Engineering (Communication) - 2 years - Undergraduate - Extension, Regular", "8. Bachelor of Science in Electrical and Computer Engineering (Computer) - 2 years - Undergraduate - Regular, Extension", "9. Bachelor of Science in Electrical and Computer Engineering (Electronics) - 2 years - Undergraduate - Regular", "10. ..., check https://portal.aait.edu.et/Web/ProgramList for more", "These programs cover a wide range of fields, including engineering, technology, and more. For detailed information about each program, including admission requirements and application procedures, please visit the AAiT website or contact the admissions office."]
+      },
+      {
+        "tag": "postgraduate_programs",
+        "examples": ["Tell me about postgraduate programs at AAiT.", "What postgraduate courses are available at AAiT?", "List AAiT's postgraduate programs."],
+        "responses": ["AAiT offers a wide range of postgraduate programs for those looking to further their education. Here are some of the postgraduate programs available:", "1. Doctor of Philosophy (PhD) in Civil Engineering (Road and Transport Engineering) - 4 years - Graduate"]
+      }
+  ]
+}
