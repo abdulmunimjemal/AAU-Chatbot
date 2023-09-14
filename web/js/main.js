@@ -29,7 +29,7 @@ function createMessageElement(msg, classes) {
 
 // Function to simulate typing effect for the p element's text content
 function typeMessage(targetElement, message, callback) {
-    const delay = 30; // Adjust the typing speed as needed (milliseconds)
+    const delay = 35; // Adjust the typing speed as needed (milliseconds)
     let index = 0;
     const typeInterval = setInterval(() => {
       if (index < message.length) {
