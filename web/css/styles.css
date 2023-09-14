@@ -67,7 +67,7 @@
     margin: 0 auto;
     max-width: 100%;
     min-height: 38rem;
-    max-height: 80%;
+    max-height: 56rem;
     padding: 1.6rem;
     width: 90%;
   }
@@ -79,8 +79,6 @@
     }
   }
 
-
-  
   
   /* Chatbot Header */
   .chatbot-container__header {
@@ -216,5 +214,4 @@
     place-self: end;
     padding-left: 1.5rem;
     padding-right: 10px;
-  }
-  
+}
