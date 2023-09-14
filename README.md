@@ -85,8 +85,8 @@ Contributions to this project are welcome. If you have any ideas or improvements
 
 ## Acknowledgments
 
-- Special thanks to the open-source community.
+- Special thanks to the open-source community :D
 
 ## Screenshots
 
-![GIF](screenshots/3.gif)
+![GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTFpN2V4d25mMGNudDRvaDVtYjBrbG43bDNwZTF6N2J1MWppd3dqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QzZ1sdJMT5qNsmVQpw/giphy.gif)
