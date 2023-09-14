@@ -89,6 +89,4 @@ Contributions to this project are welcome. If you have any ideas or improvements
 
 ## Screenshots
 
-![Screenshot 1](screenshots/1.png)
-![Screenshot 2](screenshots/2.png)
-![Screenshot 2](screenshots/3.gif)
+![GIF](screenshots/3.gif)
