@@ -1,5 +1,5 @@
 const API = "http://localhost:5000/api/v1.0/";
-const errorMessage = "Sorry, I am not able to understand you. Please try again. I am still learning.";
+const errorMessage = "Sorry, I am not able to contact the engine. Please try again later.";
 
 const textarea = document.querySelector('.input');
 const chatMessages = document.querySelector('.chatbot-container__messages');
@@ -8,6 +8,32 @@ const chatMessages = document.querySelector('.chatbot-container__messages');
 textarea.addEventListener('input', function () {
   this.style.height = 'auto';
   this.style.height = (this.scrollHeight) + 'px';
+});
+
+
+const form = document.querySelector('.send-btn');
+form.addEventListener('click', () => {
+  const msg = textarea.value.trim();
+  textarea.value = '';
+  if (msg.length > 0) {
+    appendMessage(msg, 'user');
+    fetch(API + 'chatbot', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'access-control-allow-origin': '*' // CORS
+      },
+      body: JSON.stringify({ 'message': msg })
+    })
+      .then(response => response.json())
+      .then(data => {
+        appendMessage(data.message, 'bot');
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+        appendMessage(errorMessage, 'bot');
+      });
+  }
 });
 
 function sendOnEnter(event) {
@@ -29,7 +55,7 @@ function createMessageElement(msg, classes) {
 
 // Function to simulate typing effect for the p element's text content
 function typeMessage(targetElement, message, callback) {
-    const delay = 35; // Adjust the typing speed as needed (milliseconds)
+    const delay = 15; // Adjust the typing speed as needed (milliseconds)
     let index = 0;
     const typeInterval = setInterval(() => {
       if (index < message.length) {
@@ -61,30 +87,3 @@ function typeMessage(targetElement, message, callback) {
       });
     }
   }
-
-const form = document.querySelector('.send-btn');
-form.addEventListener('click', () => {
-  const msg = textarea.value.trim();
-  if (msg.length > 0) {
-    appendMessage(msg, 'user');
-    fetch(API + 'chatbot', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'access-control-allow-origin': '*' // CORS
-      },
-      body: JSON.stringify({ 'message': msg })
-    })
-      .then(response => response.json())
-      .then(data => {
-        appendMessage(data.message, 'bot');
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-        appendMessage(errorMessage, 'bot');
-      })
-      .finally(() => {
-        textarea.value = '';
-      });
-  }
-});
