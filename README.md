@@ -1,6 +1,6 @@
 # AAU Chatbot
 
-AAU Chatbot is a chatbot application powered by natural language processing and machine learning. It provides a simple and intuitive interface for users to interact with a chatbot that can understand and respond to their queries.
+AAU Chatbot (Abebech) is a chatbot application powered by natural language processing and machine learning. It provides a simple and intuitive interface for users to interact with a chatbot that can understand and respond to their queries.
 
 ## Overview
 
